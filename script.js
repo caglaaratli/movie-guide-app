@@ -83,4 +83,3 @@ let getMovieApı =()=>{
 }
 
 searchBtn.addEventListener("click",getMovieApı);
-window.addEventListener("load",getMovieApı)
