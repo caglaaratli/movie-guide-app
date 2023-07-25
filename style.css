@@ -43,7 +43,7 @@ body{
     color:rgb(246, 252, 252);
 }
 
-.search-container input :focus{
+.search-container input:focus{
     border-color: rgb(233, 238, 238);
 
 }
@@ -65,8 +65,8 @@ body{
     position: relative;
     display:grid;
     grid-template-columns: 5fr 8fr;
-   align-items: center;
-   margin-top: 1.3em;
+    align-items: center;
+    margin-top: 1.3em;
 }
 
 .poster{
@@ -129,7 +129,6 @@ h3{
     padding-top:1em;
     font-weight: 700;
     font-size: 1.1em;
-    
 }
 
 p{

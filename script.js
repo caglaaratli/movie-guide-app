@@ -32,7 +32,7 @@ let getMovieApı =()=>{
                 result.innerHTML = ` 
                 <div class="info">
                     <img src=${data.Poster} class="poster">
-                    <div>
+                    <div>git 
                         <h2>${data.Title}</h2>
                         <div class="rating">
                            <img src="./images/star-icon.png">
@@ -83,3 +83,10 @@ let getMovieApı =()=>{
 }
 
 searchBtn.addEventListener("click",getMovieApı);
+
+
+movieNameReferances.addEventListener("keyup", function (event) {
+    if (event.keyCode === 13) {
+      getMovieSeriesAPI();
+    }
+});
