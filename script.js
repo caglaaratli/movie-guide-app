@@ -2,7 +2,7 @@ let movieNameReferance=document.getElementById("movie-name");
 let searchBtn = document.getElementById("search-Btn");
 let result=document.getElementById("result");
 
-let getMovieApı =()=>{
+let getMovieApi =()=>{
     let movieName=movieNameReferance.value;
     let url=`https://www.omdbapi.com/?t=${movieName} & apikey=${key}`;
 
@@ -82,11 +82,11 @@ let getMovieApı =()=>{
 
 }
 
-searchBtn.addEventListener("click",getMovieApı);
+searchBtn.addEventListener("click",getMovieApi);
 
 
 movieNameReferance.addEventListener("keyup", function (event) {
     if (event.keyCode === 13) {
-      getMovieSeriesAPI();
+      getMovieApi();
     }
 });
