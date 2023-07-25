@@ -85,7 +85,7 @@ let getMovieApı =()=>{
 searchBtn.addEventListener("click",getMovieApı);
 
 
-movieNameReferances.addEventListener("keyup", function (event) {
+movieNameReferance.addEventListener("keyup", function (event) {
     if (event.keyCode === 13) {
       getMovieSeriesAPI();
     }
