@@ -32,7 +32,7 @@ let getMovieApi =()=>{
                 result.innerHTML = ` 
                 <div class="info">
                     <img src=${data.Poster} class="poster">
-                    <div>git 
+                    <div> 
                         <h2>${data.Title}</h2>
                         <div class="rating">
                            <img src="./images/star-icon.png">
